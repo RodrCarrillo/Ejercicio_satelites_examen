@@ -5,3 +5,11 @@ Vamos a hacer un trabajo de multiprocessing en Python, simularemos que estamos r
 
 Nuestros multiprocesos van a ser divididos en zonas, les pondremos nombres como `zona1 = multiprocessing.Process()` y que cada proceso contenga una lista de diccionarios que digan cosas como `imagen1 = {"coordenadas": {"x": 0, "y": 0}, "numero_zona": 1}` el número de zona es el mismo que el del proceso llamado zona, "x" e "y" toman valores del 1 al 5.
 Finalmente, juntamos todos los procesos y los ordenamos con threading en listas con la misma "x" en el diccionario
+
+
+Necesitas instalar:
+import multiprocessing
+import threading
+import time
+import random
+
